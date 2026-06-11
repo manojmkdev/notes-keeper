@@ -2,6 +2,8 @@
   "name": "notes-keeper",
   "version": "0.1.0",
   "private": true,
+  "description": "A modern, responsive note-taking web application built with React, styled with clean custom CSS, and powered by Gemini AI.",
+  "homepage": "https://notes-keeper-zeta.vercel.app/login",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
