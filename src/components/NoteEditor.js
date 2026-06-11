@@ -168,12 +168,12 @@ export default function NoteEditor({ noteId, onClose, onSaved }) {
               {aiLoading ? (
                 <>
                   <span className="editor-ai-spinner"></span>
-                  Fixing...
+                  <span className="editor-ai-btn-text">Fixing...</span>
                 </>
               ) : (
                 <>
                   <span className="editor-ai-sparkle">✦</span>
-                  Fix with AI
+                  <span className="editor-ai-btn-text">Fix with AI</span>
                 </>
               )}
             </button>

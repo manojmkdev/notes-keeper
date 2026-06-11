@@ -226,3 +226,16 @@
   color: #6b7280;
   font-size: 14px;
 }
+
+@media (max-width: 639px) {
+  .notebook-create-form {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .notebooks-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .notebooks-header-row {
+    margin-bottom: 16px;
+  }
+}

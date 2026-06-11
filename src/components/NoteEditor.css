@@ -678,3 +678,68 @@
     height: 95vh;
   }
 }
+
+/* Responsive Editor Styles */
+@media (max-width: 767px) {
+  .editor-overlay {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .editor-modal {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+    border: none;
+  }
+
+  .editor-header {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .editor-title-input {
+    font-size: 18px;
+    width: 100%;
+    flex: none;
+  }
+
+  .editor-header-actions {
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .editor-meta {
+    padding: 12px 16px;
+    gap: 12px;
+  }
+
+  .editor-meta-item {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .editor-body .ql-editor {
+    padding: 16px;
+  }
+
+  .editor-ai-btn-text {
+    display: none;
+  }
+
+  .editor-ai-btn.standalone {
+    padding: 0 10px;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+  }
+
+  .editor-color-picker {
+    flex-wrap: wrap;
+    max-width: 180px;
+    justify-content: flex-end;
+  }
+}

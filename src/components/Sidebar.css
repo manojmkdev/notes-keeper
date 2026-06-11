@@ -130,3 +130,39 @@
   background: #fee2e2;
   color: #dc2626;
 }
+
+/* Sidebar close button */
+.sidebar-close-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.sidebar-close-btn:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+/* Responsive rules */
+@media (max-width: 1023px) {
+  .sidebar {
+    left: -260px;
+    z-index: 150;
+    transition: left 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-close-btn {
+    display: flex;
+  }
+}

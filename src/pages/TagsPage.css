@@ -291,3 +291,26 @@
   color: #6b7280;
   font-size: 14px;
 }
+
+@media (max-width: 639px) {
+  .tag-inputs-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .tag-color-picker {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .tag-colors-grid {
+    flex-wrap: wrap;
+  }
+  .tags-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tag-create-btn {
+    width: 100%;
+    align-self: stretch;
+  }
+}
