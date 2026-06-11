@@ -726,8 +726,8 @@
     padding: 16px;
   }
 
-  .editor-ai-btn-text {
-    display: none;
+  .editor-ai-btn.standalone .editor-ai-btn-text {
+    display: none !important;
   }
 
   .editor-ai-btn.standalone {
