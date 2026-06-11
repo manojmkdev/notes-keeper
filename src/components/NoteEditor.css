@@ -726,16 +726,7 @@
     padding: 16px;
   }
 
-  .editor-ai-btn.standalone .editor-ai-btn-text {
-    display: none !important;
-  }
 
-  .editor-ai-btn.standalone {
-    padding: 0 10px;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-  }
 
   .editor-color-picker {
     flex-wrap: wrap;
