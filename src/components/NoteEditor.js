@@ -72,6 +72,7 @@ export default function NoteEditor({ noteId, onClose, onSaved }) {
       }, 1500);
     }
     return () => clearTimeout(autoSaveRef.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [title, content, notebookId, selectedTags, color]);
 
   const handleSave = (auto = false) => {
